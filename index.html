@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Crimson+Pro"
+    />
+    <title>Quiz Quest</title>
+  </head>
+  
+  <body class="">
+    
+    <div class="container">
+      <div class="title-header">
+        <div class="card">
+          
+          
+          <form method="POST">
+            <div class="input-group">
+              <label for="User Name">User Name</label>
+              <input
+                type="text"
+                name="user-name"
+                id="user-name"
+                placeholder="Name"
+              /><button id="save-score">Save Score</button>
+              <div id="msg"></div>
+            </div>            
+            
+          </form>
+        </div>
+        <div class="title"><h2 class="title-header">Quiz Quest</h2></div>
+      <div class="img-header">        
+        <div id="stats">
+          <h2 id="countdown"></h2>
+          <p id="score">0</p>
+        </div>
+      </div>
+      <div id="question-container" class="hide">
+        Questions:
+        <div id="question">Question</div>
+        <div id="answer-buttons" class="btn-grid">
+          <button class="btn">Answer 1</button>
+          <button class="btn">Answer 2</button>
+          <button class="btn">Answer 3</button>
+          <button class="btn">Answer 4</button>
+        </div>
+      </div>
+      <div class="controls">
+        <button id="start-btn" class="start-btn btn">Start</button>
+        <button id="next-btn" class="next-btn btn hide">Next</button>
+      </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
