@@ -20,7 +20,7 @@ https://bullbotbam.github.io/quiz-quest
 ## Usage
 to test skillset
 
-![quiz-quest-imag](https://github.com/Bullbotbam/quiz-quest/blob/main/assets/images/quiz-quest-image.png)
+![quiz-quest-imag](https://github.com/Bullbotbam/quiz-quest/blob/main/assets/images/a-quiz-quest-image.png)
 
 
 ## Contribution
