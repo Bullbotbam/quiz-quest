@@ -17,7 +17,7 @@ const resetGame = nextButton.addEventListener("click", startGame);
 
 var timerEl = document.getElementById("countdown");
 function countdown() {
-  var timeLeft = 15;
+  var timeLeft = 75;
 
   // TODO: Use the `setInterval()` method to call a function to be executed every 1000 milliseconds
   var timeInterval = setInterval(function () {
